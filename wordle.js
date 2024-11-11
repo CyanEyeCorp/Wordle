@@ -132,7 +132,7 @@ function update() {
     console.log(guess);
 
     if (!guessList.includes(guess)) {
-        document.getElementById("answer").innerText = "Err. 001 Variable not contains item!";
+        document.getElementById("answer").innerText = "scripthost.cyaneye.online/api/appid/15455265465, line 659, in validateGuess() — Error: Word not recognised. Code: 0x7BFF0014,[CRITICAL] [EXIT STATUS: 1]";
         return;
     }
     
